@@ -7,3 +7,5 @@ rdd=sc.parallelize(data)
 r=rdd.groupByKey().collect()
 for k,v in r:
     print(k,tuple(v))
+
+op  ('a', (1, 2, 3)) ('b', (1, 2))
